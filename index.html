@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>redirects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    button {
+      padding: 14px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #38bdf8;
+      color: #020617;
+      transition: transform 0.15s ease, background 0.15s ease;
+    }
+
+    button:hover {
+      background: #0ea5e9;
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>pick something</h1>
+    <div class="buttons">
+      <button onclick="window.location.href='https://democracycraft.net'">Forums</button>
+      <button onclick="window.location.href='https://map.democracycraft.net'">Map</button>
+      <button onclick="window.location.href='https://store.democracycraft.net'">Store</button>
+      <button onclick="window.location.href='https://map.democracycraft.net/stats/?lang=en'">Records</button>
+      <button onclick="window.location.href='https://wiki.democracycraft.net'">Wiki</button>
+      <button onclick="window.location.href='https://punishments.democracycraft.net'">Punishments</button>
+      <button onclick="window.location.href='https://index.globalcenterdc.com'">Tool Index</button>
+    </div>
+  </div>
+</body>
+</html>
